@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>农产品数据可视化</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/time.js"></script>
+    
+    <script src="js/echarts.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 头部开始 -->
+    <header>
+       <h1>农产品数据可视化</h1> 
+       <!-- 显示当前时间 -->
+       <div class="showTime"></div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- 主体部分开始 -->
+    <section class="mainbox">
+        <!-- 左边盒子 3 -->
+        <div class="left-box">
+            <!-- 公共项 图表1-->
+            <div class="item-box">
+                <!-- 标题 -->
+                <div class="item-title"><h2>农副产品产量</h2></div>
+                <!-- 图表 -->
+                <div class="item-body chart1">
+                    图表
+                </div>
+                <!-- 图表底部 -->
+                <div class="item-footer"></div>
+            </div>
+            <!-- 公共项 图表2-->
+            <div class="item-box">
+                <!-- 标题 -->
+                <div class="item-title"><h2>农副产品年收益</h2></div>
+                <!-- 图表 -->
+                <div class="item-body chart2"></div>
+                <!-- 图表底部 -->
+                <div class="item-footer"></div>
+            </div>
+            <!-- 公共项 图表3-->
+            <div class="item-box">
+                <!-- 标题 -->
+                <div class="item-title"><h2>各农副产品收益占比</h2></div>
+                <!-- 图表 -->
+                <div class="item-body chart3"></div>
+                <!-- 图表底部 -->
+                <div class="item-footer"></div>
+            </div>
+        </div>
+        <!-- 中间盒子 5 -->
+        <div class="center-box">
+            <!-- 中间盒子上方数字模块 -->
+            <div class="num-box">
+                <!-- 模块数字显示 -->
+                <div class="num-hd">
+                    <ul>
+                        <li>262900</li>
+                        <li>131400</li>
+                    </ul>
+                </div>
+                <!-- 模块数字显示信息 -->
+                <div class="num-bd">
+                    <ul>
+                        <li>总订单</li>
+                        <li>已完成订单</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 中间盒子下方地图模块 -->
+            <div class="map-box">
+                <div class="chart chart7"></div>
+                <div class="map1"></div>
+                <div class="map2"></div>
+                <div class="map3"></div>
+            </div>
+        </div>
+        <!-- 右边盒子 3 -->
+        <div class="right-box">
+             <!-- 公共项 图表4-->
+             <div class="item-box">
+                <!-- 标题 -->
+                <div class="item-title"><h2>各季度收益比</h2></div>
+                <!-- 图表 -->
+                <div class="item-body chart4"></div>
+                <!-- 图表底部 -->
+                <div class="item-footer"></div>
+            </div>
+             <!-- 公共项 图表5-->
+             <div class="item-box">
+                <!-- 标题 -->
+                <div class="item-title"><h2>各平台销量</h2></div>
+                <!-- 图表 -->
+                <div class="item-body chart5"></div>
+                <!-- 图表底部 -->
+                <div class="item-footer"></div>
+            </div>
+             <!-- 公共项 图表6-->
+             <div class="item-box">
+                <!-- 标题 -->
+                <div class="item-title"><h2>销售地区分布</h2></div>
+                <!-- 图表 -->
+                <div class="item-body chart6"></div>
+                <!-- 图表底部 -->
+                <div class="item-footer"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/china.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
